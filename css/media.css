@@ -1,0 +1,1128 @@
+@media (max-width:1400px) {
+
+  /* playlists */
+  .playlists-flag {
+    left: 0px;
+  }
+
+  .playlists-item__wrapper {
+    display: flex;
+  }
+
+  .playlists-img {
+    min-width: 63px;
+  }
+
+  .playlists-item__inner {
+    min-width: 55%;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+
+  /* about-us */
+  .about-us-upper-wrapper__picture-middle {
+    display: none;
+  }
+
+  /* animation */
+  .podcasts-content__wrapper:hover,
+  .playlists-item__wrapper:hover {
+    box-shadow: none;
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  .podcasts-content__wrapper,
+  .playlists-item__wrapper {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+
+  .podcasts-content__wrapper:hover,
+  .playlists-item__wrapper:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+}
+
+@media (max-width: 1024px) {
+
+  /* glob */
+  .container {
+    max-width: 848px;
+  }
+
+  /* header */
+  .header {
+    position: relative;
+    padding: 0;
+  }
+
+  .header::before {
+    content: "";
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 1px;
+    background-color: #E6E8EC;
+  }
+
+  .header::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #E6E8EC;
+  }
+
+  .header__wrapper {
+    display: none;
+  }
+
+  .header__wrapper-1024 {
+    display: flex;
+  }
+
+  .header__group {
+    display: flex;
+    padding-top: 29px;
+    padding-bottom: 23px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header__link-logo {
+    display: inline-block;
+    width: 112px;
+    margin: 0;
+  }
+
+  .btn-search {
+    padding: 0;
+  }
+
+  .header-nav {
+    padding-top: 22px;
+    padding-bottom: 21px;
+  }
+
+  .header-nav__item:not(:last-child) {
+    margin-right: 105px;
+  }
+
+  /* hero */
+  .section-hero {
+    padding-bottom: 85px;
+  }
+
+  .hero-picture {
+    padding-top: 83px;
+  }
+
+  .section-hero__descr {
+    margin-bottom: 21px;
+  }
+
+  /* podcasts */
+  .podcasts-content__wrapper {
+    max-width: 100%;
+  }
+
+  .podcast-inner-wrapper {
+    padding: 40px 32px;
+  }
+
+  /* radio-programme */
+  .section-radio-programme {
+    padding-bottom: 64px;
+  }
+
+  .radio-programme-item {
+    margin-bottom: 29px;
+  }
+
+  .radio-programme-item__link {
+    bottom: 20px;
+    left: 17px;
+  }
+
+  .radio-programme-picture {
+    margin-bottom: 20px;
+  }
+
+  .radio-programme-btn {
+    margin-bottom: 11px;
+  }
+
+  /* guests */
+  .section-guests__descr {
+    max-width: 536px;
+  }
+
+  /* playlists */
+  .palylists-left-wrapper {
+    margin-bottom: 12px;
+  }
+
+  .playlists-item__wrapper {
+    display: flex;
+  }
+
+  .playlists-item__inner {
+    min-width: 145px;
+    padding-top: 39px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 11px;
+  }
+
+  /* ad */
+  .section-ad {
+    padding-bottom: 92px;
+  }
+
+  .ad-picture {
+    padding-bottom: 37px;
+  }
+
+  .ad-picture::before {
+    width: 100px;
+    height: 100px;
+    top: -5px;
+    left: 0;
+    background-image: url('../img/ad-svg-to-img-1024.svg');
+  }
+
+  .ad-right-wrapper__inner {
+    padding-left: 2px;
+  }
+
+  .section-ad__heading {
+    background-image: url('../img/ad-curved-line-1024.svg');
+  }
+
+  /* about-us */
+  .section-about-us {
+    padding-bottom: 68px;
+  }
+
+  .about-us-upper-wrapper {
+    margin-bottom: 29px;
+  }
+
+  .about-us-middle-wrapper {
+    margin-bottom: 0;
+  }
+
+  .about-us-upper-wrapper__picture-middle {
+    display: none;
+  }
+
+  .about-us-list-item {
+    margin-bottom: 31px;
+  }
+
+  .about-us-list-item__inner {
+    padding-top: 30px;
+  }
+
+  .about-us-form__wrapper {
+    margin-bottom: 24px;
+  }
+
+  .about-us-btn {
+    margin-bottom: 25px;
+    padding: 29px 55px;
+  }
+
+  .about-us-form__btn-checbox {
+    padding-top: 4px;
+  }
+
+  /* footer */
+  .footer__nav-list {
+    padding-left: 25px;
+    padding-right: 0;
+  }
+
+  .footer__wrapper {
+    background-image: url('../img/footer-curved-line-1024.svg');
+  }
+}
+
+@media (max-width: 992px) {
+
+  /* footer */
+  .header-nav__item:not(:last-child) {
+    margin-right: 54px;
+  }
+
+  .header-nav__list {
+    justify-content: space-between;
+  }
+
+  /* hero */
+  .hero-picture {
+    display: none;
+  }
+
+  /* radio-programme */
+  .section-radio-programme__heading {
+    margin-bottom: 35px;
+  }
+
+  .radio-programme-left-wrapper__lower {
+    display: flex;
+    max-width: 400px;
+  }
+
+  .radio-programme-picture {
+    min-width: 70px;
+  }
+
+  /* playlists */
+  .playlists-item__inner {
+    min-width: 72%;
+    padding-top: 20px;
+    padding-right: 11px;
+    padding-bottom: 15px;
+  }
+
+  /* about-us */
+  .about-us-upper-wrapper__picture {
+    display: none;
+  }
+
+  /* footer */
+  .footer__top-wrapper {
+    margin-bottom: 74px;
+  }
+
+  .footer-top-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__link-item {
+    display: inline-block;
+    font-size: 0;
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* glob */
+  .container {
+    max-width: 563px;
+  }
+
+  /* header */
+  .header-nav__item {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  /* hero */
+  .section-hero {
+    padding-bottom: 89px;
+  }
+
+  .hero-picture {
+    display: none;
+  }
+
+  /* podcasts */
+  .podcasts-content__wrapper {
+    max-width: 100%;
+  }
+
+  .podcast-inner-wrapper {
+    padding: 40px 29px;
+  }
+
+  /* radio-programme */
+  .section-radio-programme {
+    position: relative;
+  }
+
+  .section-radio-programme::after {
+    content: "";
+    position: absolute;
+    bottom: 156px;
+    width: 100%;
+    height: 1px;
+    background-color: #E6E8EC;
+  }
+
+  .section-radio-programme__heading {
+    margin-bottom: 0;
+  }
+
+  .section-radio-programme {
+    padding-bottom: 4px;
+  }
+
+  .radio-programme-left-wrapper {
+    margin-bottom: 80px;
+  }
+
+  .radio-programme-left-wrapper__lower {
+    display: none;
+  }
+
+  .radio-programme-left-wrapper-lower-768 {
+    display: block;
+  }
+
+  .radio-programme-right-wrapper {
+    margin-bottom: 61px;
+  }
+
+  .radio-programme-item__inner {
+    padding-left: 16px;
+  }
+
+  .radio-programme-item__link {
+    bottom: 20px;
+    left: 16px;
+  }
+
+  .radio-programme-768-inner {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 18px;
+    max-width: 380px;
+  }
+
+  .radio-programme-picture {
+    min-width: 70px;
+    margin-right: 20px;
+  }
+
+  .radio-programme-btn {
+    margin-bottom: 9px;
+  }
+
+  /* guests */
+  .section-guests {
+    padding-bottom: 90px;
+  }
+
+  .guests-list-item {
+    flex-direction: column;
+  }
+
+  .guests-list-item__picture {
+    margin: 0;
+    margin-bottom: 26px;
+  }
+
+  .guests-list-item__inner-wrapper {
+    max-width: 360px;
+  }
+
+  .guests-list-item__name {
+    margin-bottom: 9px;
+  }
+
+  .guests-list-item__descr {
+    margin-bottom: 9px;
+  }
+
+  /* playlists */
+  .section-playlists {
+    padding-bottom: 81px;
+  }
+
+  .playlists-item__inner {
+    min-width: 56%;
+    padding-top: 38px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  .guests-btn {
+    bottom: 2px;
+  }
+
+  /* ad */
+  .section-ad {
+    padding-top: 55px;
+  }
+
+  .ad-picture {
+    padding-bottom: 0;
+    margin-bottom: 46px;
+  }
+
+  .ad-picture::before {
+    width: 160px;
+    height: 160px;
+    top: -1px;
+    left: -1px;
+    background-image: url('../img/ad-svg-to-img-1920.svg');
+  }
+
+  .ad-right-wrapper__inner {
+    padding: 0;
+  }
+
+  .section-ad__heading {
+    background-image: url('../img/ad-curved-line-768.svg');
+  }
+
+  .section-ad__heading-span {
+    display: block;
+    max-width: 490px;
+  }
+
+  .ad-right-wrapper__btn {
+    padding-left: 38px;
+    padding-right: 12px;
+  }
+
+  /* about-us */
+  .section-about-us {
+    position: relative;
+    padding-bottom: 63px;
+  }
+
+  .section-about-us::before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 475px;
+    width: 100vw;
+    /* width: 654px; */
+    height: 112px;
+    background-image: url("../img/about-us-768-svg.svg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+  }
+
+  .about-us-upper-wrapper {
+    margin-bottom: 171px;
+  }
+
+  .about-us-list-item__inner {
+    padding-left: 1px;
+    padding-top: 31px;
+  }
+
+  .about-us-upper-wrapper__picture {
+    display: none;
+  }
+
+  .about-us-list-item {
+    margin-bottom: 30px;
+  }
+
+  .about-us-form__wrapper {
+    margin-bottom: 28px;
+  }
+
+  .about-us-btn {
+    margin-bottom: 28px;
+    padding: 26px 55px;
+  }
+
+  .about-us-form__checkbox-descr {
+    padding-left: 21px;
+  }
+
+  /* footer */
+  .footer {
+    padding-top: 94px;
+  }
+
+  .footer__nav-list {
+    padding-left: 0;
+  }
+
+  .footer__nav-inner-item:not(:last-child) {
+    margin-bottom: 28px;
+  }
+
+  .footer__wrapper {
+    bottom: 24px;
+    background-image: url('../img/footer-curved-line-768.svg');
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* header */
+  .header-nav__list {
+    overflow-x: scroll;
+  }
+
+  /* radio-programme */
+  .radio-programme-left-wrapper {
+    margin-bottom: 0px;
+  }
+
+  /* playlists */
+  .playlists-item__inner {
+    padding-left: 10px;
+    max-width: 115px;
+    min-width: 48%;
+  }
+
+  .playlists-img {
+    min-width: 111.5px;
+  }
+
+  .playlists-item__band-name {
+    font-size: 14px;
+  }
+
+  .playlists-item__descr {
+    font-size: 10px;
+  }
+
+  /* about-us */
+  .about-us-upper-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .section-about-us::before {
+    width: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* hero */
+  .section-hero__title {
+    font-size: 45px;
+  }
+
+  /* radio-programme */
+  .radio-programme-item__inner {
+    padding-right: 5px;
+  }
+
+  .radio-programme-item__heading {
+    font-size: 15px;
+  }
+
+  .radio-programme-item__descr {
+    font-size: 10px;
+  }
+
+  /* guests */
+  .guests-list-item__img {
+    min-width: 256px;
+  }
+
+  /* playlists */
+  .playlists-item {
+    margin-bottom: 29px;
+  }
+
+  .playlists-item__picture {
+    min-width: 115px;
+  }
+
+  .playlists-item__inner {
+    min-width: 115px;
+    padding-top: 8px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+  }
+
+  .palylists-left-wrapper__descr {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .playlists-small {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .playlists-item__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .podcasts-content__wrapper:hover,
+  .playlists-item__wrapper:hover {
+    box-shadow: none;
+  }
+
+  .playlists-flag {
+    left: 91px;
+  }
+
+  .playlists-item__band-name {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .playlists-item__descr {
+    font-size: 9px;
+    line-height: 9px;
+  }
+
+  .playlists-img {
+    min-width: 115px;
+  }
+
+  /* ad */
+  .section-ad__heading {
+    background-image: url();
+  }
+
+  .ad-picture::before {
+    width: 100px;
+    top: -33px;
+  }
+
+  .section-ad__heading-span {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  /* glob */
+  .container {
+    max-width: 279px;
+  }
+
+  .section-heading {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  /* header */
+  .header::before {
+    top: 55px;
+  }
+
+  .header__link-logo {
+    width: 87px;
+  }
+
+  .header__group {
+    padding-top: 15px;
+    padding-bottom: 12px;
+  }
+
+  .header-nav {
+    padding-top: 16px;
+    padding-bottom: 17px;
+  }
+
+  .header-nav__list {
+    min-width: 286px;
+  }
+
+  .header-nav__first-item {
+    margin: 0;
+  }
+
+  .header-nav__item:not(:last-child) {
+    margin-right: 28px;
+  }
+
+  /* hero */
+  .section-hero {
+    padding-top: 41px;
+    padding-bottom: 39px;
+  }
+
+  .hero-content {
+    padding-top: 0;
+  }
+
+  .section-hero__title {
+    margin-bottom: 7px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .section-hero__descr {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .section-hero__btn {
+    padding: 17px 45px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  /* podcasts */
+  .section-podcasts {
+    padding-top: 55px;
+    padding-bottom: 19px;
+  }
+
+  .section-podcasts__heading {
+    margin-bottom: 19px;
+  }
+
+  .podcasts-content__item {
+    margin-bottom: 32px;
+  }
+
+  .podcasts-data {
+    top: 0;
+  }
+
+  .podcasts-content__wrapper {
+    display: block;
+  }
+
+  .podcast-inner-wrapper {
+    padding: 0;
+    padding-top: 28px;
+    padding-right: 15px;
+    padding-bottom: 32px;
+    padding-left: 15px;
+  }
+
+  .podcast-inner-wrapper__heading {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .podcast-inner-wrapper__descr {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  /* radio-programme */
+  .section-radio-programme {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .section-radio-programme::after {
+    bottom: 189px;
+  }
+
+  .radio-programme-left-wrapper {
+    padding-bottom: 0;
+    margin-bottom: 16px;
+  }
+
+  .radio-programme-right-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .radio-programme-item {
+    margin-bottom: 30px;
+  }
+
+  .radio-programme-item__inner {
+    max-width: 113px;
+    min-height: 99px;
+  }
+
+  .radio-programme-item__inner {
+    padding-top: 9px;
+    padding-right: 8px;
+    padding-bottom: 0;
+    padding-left: 8px;
+  }
+
+  .radio-programme-item__heading {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .radio-programme-item__descr {
+    font-size: 9px;
+    line-height: 9px;
+  }
+
+  .radio-programme-item__link {
+    font-size: 12px;
+    line-height: 12px;
+    bottom: 11px;
+    left: 10px;
+  }
+
+  .radio-programme-768-inner {
+    padding-left: 67px;
+  }
+
+  .radio-btn-descr-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 160px;
+  }
+
+  .radio-btn-descr-wrapper::after {
+    content: "";
+    position: absolute;
+    left: -90px;
+    top: 1px;
+    width: 77px;
+    height: 106px;
+    background-image: url('../img/mic-programme-320.png');
+    background-repeat: no-repeat;
+  }
+
+  .radio-programme-picture {
+    display: none;
+  }
+
+  .radio-programme-descr {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .radio-programme-btn {
+    margin-bottom: 0;
+    padding: 7px 29px;
+  }
+
+  /* guests */
+  .section-guests {
+    padding-top: 55px;
+    padding-bottom: 46px;
+  }
+
+  .section-guests__title {
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .guests-list-item:not(:last-child) {
+    margin-bottom: 21px;
+  }
+
+  .guests-list-item__picture {
+    margin-bottom: 7px;
+  }
+
+  .section-guests__descr {
+    margin-bottom: 28px;
+    font-size: 14px;
+    line-height: 22.4px;
+  }
+
+  .guests-btn {
+    bottom: 8px;
+    left: 0px;
+    padding: 8px 12.5px;
+  }
+
+  /* playlists */
+  .section-playlists {
+    padding-top: 55px;
+    padding-bottom: 24px;
+  }
+
+  .palylists-left-wrapper {
+    margin-bottom: 10px;
+  }
+
+  /* ad */
+  .section-ad {
+    padding-top: 55px;
+    padding-bottom: 23px;
+  }
+
+  .ad-picture {
+    margin-bottom: 32px;
+  }
+
+  .ad-picture::before {
+    width: 62px;
+    height: 62px;
+    top: -1px;
+    left: -1px;
+    background-image: url('../img/ad-svg-to-img-320.svg');
+  }
+
+  .section-ad__heading {
+    margin-bottom: 17px;
+    padding-bottom: 23px;
+    background-image: url('../img/ad-curved-line-320.svg');
+    background-position: 0 59px;
+  }
+
+  .ad-right-wrapper__upper-descr,
+  .ad-right-wrapper__lower-descr {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .ad-right-wrapper__upper-descr {
+    margin-bottom: 13px;
+  }
+
+  .ad-right-wrapper__lower-descr {
+    margin-bottom: 12px;
+  }
+
+  .ad-right-wrapper__price {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .ad-right-wrapper__btn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 41px;
+    padding-right: 15px;
+    left: 12px;
+    bottom: 30px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  /* about-us */
+  .section-about-us {
+    padding-top: 55px;
+    padding-bottom: 25px;
+  }
+
+  .section-about-us::before {
+    width: 0;
+    height: 0;
+  }
+
+  .about-us-upper-wrapper {
+    margin-bottom: 29px;
+  }
+
+  .about-us-upper-wrapper__title {
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .about-us-upper-wrapper__descr {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .about-us-list-item__inner {
+    padding-top: 12px;
+  }
+
+  .about-us-list-item__name {
+    margin-bottom: 5px;
+    padding-right: 6px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .about-us-list-item__descr {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .about-us-form__wrapper {
+    margin-bottom: 26px;
+  }
+
+  .about-us-form__textarea {
+    padding: 16px 22px;
+    border-radius: 20px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .about-us-form__name {
+    width: inherit;
+    padding: 15px 22px;
+  }
+
+  .about-us-form__email {
+    width: inherit;
+    padding: 14px 22px;
+  }
+
+  .about-us-btn {
+    margin-bottom: 18px;
+    padding: 17px 44px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .about-us-form__checkbox-descr {
+    font-size: 9px;
+    line-height: 9px;
+  }
+
+  /* footer */
+  .footer {
+    padding-top: 54px;
+    padding-bottom: 69px;
+  }
+
+  .footer__top-wrapper {
+    margin-bottom: 48px;
+  }
+
+  .footer__bottom-321-wrapper {
+    display: none;
+  }
+
+  .footer__bottom-320-wrapper {
+    display: list-item;
+  }
+
+  .footer__nav-link {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .footer__nav-list {
+    max-width: 250px;
+    max-width: 190px;
+    transform: translateX(33px);
+  }
+
+  .footer-320-bottom-nav {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    width: 100vw;
+    transform: translateX(-33px);
+    background-color: #121723;
+  }
+
+  .footer__nav-inner-item:not(:last-child) {
+    margin-bottom: 18px;
+  }
+
+  .footer__wrapper {
+    padding-top: 17px;
+    background-image: url('../img/footer-curved-line-320.svg');
+  }
+
+  .footer__span {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
